@@ -18,41 +18,43 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Meteora</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Lojas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Novidades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Promoção</a>
-                    </li>
-                </ul>
-
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Digite o produto" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+    <header>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Meteora</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lojas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promoção</a>
+                        </li>
+                    </ul>
+    
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Digite o produto" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+    
             </div>
+        </nav>
+    </header>
 
-        </div>
-    </nav>
-
-    <!-- Carousel -->
+    <!-- Carousel Section -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -122,7 +124,7 @@
     </div>
 
     <!-- Category Subtitle -->
-    <h2 class="text-center m-5">Busque por categoria:</h2>
+    <h2 class="text-center my-5">Busque por categoria:</h2>
 
     <!-- Category Cards -->
     <div class="container row mx-auto g-4">
@@ -243,7 +245,7 @@
     </div>
 
     <!-- Product Subtitle -->
-    <h2 class="text-center m-5">Produtos que estão bombando!</h2>
+    <h2 class="text-center my-5">Produtos que estão bombando!</h2>
 
     <!-- Product Cards -->
     <div class="container row mx-auto g-4">
