@@ -2,7 +2,7 @@
 https://user-images.githubusercontent.com/83666455/230492694-f2722f76-5dd5-4bde-ab5d-a8898bc41ec0.mp4
 
 <p id="description">
-  Meteora é um e-commerce feito com o Bootstrap 5; esse projeto foi desenvolvido através do curso "Bootstrap 5: crie uma loja virtual" da Alura.
+  Meteora é um e-commerce feito com o <a href="https://getbootstrap.com/">Bootstrap 5</a> e foi desenvolvido através do curso <a href="https://cursos.alura.com.br/course/bootstrap5-crie-loja-virtual">"Bootstrap 5: crie uma loja virtual" da Alura</a>.
 </p>
 
 
