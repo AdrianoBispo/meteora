@@ -1,9 +1,4 @@
-<p align="center">
-  <img src="https://github.com/AdrianoBispo/meteora/blob/master/assets/logo-meteora.png" alt="project-image">
-  <hr>
-</p>
-
-## 🖥 Preview
+# 🖥 Preview
 https://user-images.githubusercontent.com/83666455/230492694-f2722f76-5dd5-4bde-ab5d-a8898bc41ec0.mp4
 
 <p id="description">
